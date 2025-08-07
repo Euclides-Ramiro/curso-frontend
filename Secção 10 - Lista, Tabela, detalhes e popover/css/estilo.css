@@ -11,12 +11,22 @@ body{
 table{
     margin: 0 auto;
     width: 90%;
+    background-color: rgb(224, 224, 150);
+    border-collapse: collapse;
+}
+
+th{
+    background-color: coral;
+    padding: 10px;
+    border: 2px solid rgb(58, 27, 16);
 }
 
 td{
     border: 1px solid black;
 }
 
-.footer {
+td {
     text-align: center;
+    padding: 10px;
 }
+

@@ -1,0 +1,18 @@
+body{
+    font-family: sans-serif;
+}
+
+details{
+    background-color: #ccc;
+    color: red;
+    margin-bottom: 1em;
+    padding: .5em;
+}
+
+details summary{
+    cursor: pointer;
+}
+
+details[open]
+{background-color: black;
+}
