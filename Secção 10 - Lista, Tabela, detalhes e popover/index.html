@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Trabalhando com LISTA POR ALINHAMENTO OU POR DEFINIÇÃO</title>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
 
     <!-- TABELA -->
 
-    <table border="1px">
+    <table>
         <caption>Tabela de Preço de cursos</caption>
         <thead>
             <th>Área</th>
@@ -19,50 +20,52 @@
 
             <!-- Design -->
             <tr>
-                <td>Design</td>
+                <td rowspan="3">Design</td>
                 <td>InDesign</td>
                 <td>R$ 1000,00</td>
             </tr>
 
             <tr>
-                <td>Design</td>
+                
                 <td>PhotoShop</td>
                 <td>R$ 1000,00</td>
             </tr>
 
             <tr>
-                <td>Design</td>
+                
                 <td>Illostrator</td>
                 <td>R$ 1000,00</td>
             </tr>
 
             <!-- Desenvolvimento -->
              <tr>
-                <td>Desenvolviment</td>
+                <td rowspan="4">Desenvolviment</td>
                 <td>HTML</td>
                 <td>R$ 1000,00</td>
             </tr>
 
             <tr>
-                <td>Desenvolviment</td>
+                
                 <td>CSS</td>
                 <td>R$ 1000,00</td>
             </tr>
 
             <tr>
-                <td>Desenvolviment</td>
+                
                 <td>Javascript</td>
                 <td>R$ 1000,00</td>
             </tr>
 
             <tr>
-                <td>Desenvolviment</td>
+                
                 <td>PHP</td>
                 <td>R$ 1000,00</td>
             </tr>
         </tbody>
         <tfoot>
-            
+            <tr>
+                <td colspan="3" class="footer">Valores sujeitos a alteração sem prévio aviso</td>
+            </tr>
         </tfoot>
     </table>
     

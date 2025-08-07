@@ -4,5 +4,19 @@
 }
 
 body{
-    back
+    background: #f8b5b5;
+    font-family: sans-serif;
+}
+
+table{
+    margin: 0 auto;
+    width: 90%;
+}
+
+td{
+    border: 1px solid black;
+}
+
+.footer {
+    text-align: center;
 }
