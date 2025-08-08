@@ -1,3 +1,18 @@
 body{
-    background: #11ccaa;
+    /* background: #11ccaa; */
+}
+
+:popover-open{
+    width: 300px;
+    padding: 0 12px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+::backdrop{
+    background-color: rgba(0, 0, 0, .32);
+}
+
+.popover-container :popover-open{
+    inset: 24;
 }
